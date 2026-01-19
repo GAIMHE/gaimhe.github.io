@@ -15,19 +15,19 @@ For questions, collaboration inquiries, or more information about GAIMHE:
 
 ---
 
-### 📧 Email
+### Email
 
 *[Add contact email here]*
 
 ---
 
-### 🌐 GitHub
+### GitHub
 
 Visit our organization: [github.com/GAIMHE](https://github.com/GAIMHE)
 
 ---
 
-### 📍 Location
+### Location
 
 **Inria**  
 
