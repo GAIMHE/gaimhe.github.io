@@ -1,0 +1,11 @@
+title: GAIMHE
+description: Generative AI et Modèles Hybrides pour l'Éducation
+theme: jekyll-theme-cayman
+show_downloads: false
+
+# Navigation links (optional, for themes that support it)
+header_pages:
+  - project.md
+  - datasets.md
+  - collaborations.md
+  - contact.md
