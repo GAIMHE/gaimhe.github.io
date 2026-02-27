@@ -7,7 +7,7 @@ title: Home
 
 **Generative AI Models for Hybrid Educational technologies**
 
-[Industrial Presentation (PDF)](ressources/Industrial_presentation.pdf)
+[Industrial Presentation (PDF)](ressources/whitepaper.pdf)
 
 ---
 
@@ -41,7 +41,7 @@ To accelerate France's EDTech France ecosystem, we will release major project co
 
 ## Quick Links
 
-- [Industrial Presentation (PDF)](ressources/Industrial_presentation.pdf) — View the slide deck
+- [White paper (PDF)](ressources/whitepaper.pdf) — View the slide deck
 - [Project Architecture](project.md) — Discover our approach
 - [Data & Evaluation](datasets.md) — Learn about our dataset generation methodology
 - [Collaborations](collaborations.md) — Meet our partners
