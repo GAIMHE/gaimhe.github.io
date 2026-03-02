@@ -7,8 +7,6 @@ title: Home
 
 **Generative AI Models for Hybrid Educational technologies**
 
-[Industrial Presentation (PDF)](ressources/whitepaper.pdf)
-
 ---
 
 ## Overview
@@ -41,10 +39,17 @@ To accelerate France's EDTech France ecosystem, we will release major project co
 
 ## Quick Links
 
-- [White paper (PDF)](ressources/whitepaper.pdf) — View the slide deck
-- [Project Architecture](project.md) — Discover our approach
-- [Data & Evaluation](datasets.md) — Learn about our dataset generation methodology
-- [Collaborations](collaborations.md) — Meet our partners
+White paper (PDF)
+
+- **White paper (PDF)**  
+  *Hybridizing adaptive intelligent tutoring systems with generative AI:  
+  challenges and opportunities for large-scale deployment and pedagogical impact*  
+  Sofiya Kobylyanskaya, Olivier Clerc, Axelle Ziegler,  
+  Catherine de Vulpillières, Pierre-Yves Oudeyer  
+  → [Link](ressources/whitepaper.pdf)
+- [Project Architecture](project.md) — Discover our approach  
+- [Data & Evaluation](datasets.md) — Learn about our dataset generation methodology  
+- [Collaborations](collaborations.md) — Meet our partners  
 - [Contact](contact.md) — Get in touch
 
 ---
