@@ -6,8 +6,6 @@ permalink: /project/
 
 # Project Architecture
 
-[Back to Home]({{ '/' | relative_url }})
-
 GAIMHE investigates a hybrid architecture for educational AI. The central design choice is to preserve the pedagogical control of adaptive intelligent tutoring systems while using generative AI only where it can reduce authoring cost, improve feedback, or support richer learning analytics.
 
 ## Architecture at a Glance
@@ -66,5 +64,3 @@ The architecture is designed for classroom-scale use. Generating every exercise 
 ## Evaluation Perspective
 
 The project evaluates hybrid AI for education through several complementary questions: whether generated content is pedagogically valid, whether adaptive sequencing remains effective with generated resources, whether models can exploit rich educational histories, and whether the resulting systems remain frugal enough for large-scale deployment.
-
-[Back to Home]({{ '/' | relative_url }})

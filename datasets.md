@@ -6,8 +6,6 @@ permalink: /datasets/
 
 # Data and Evaluation
 
-[Back to Home]({{ '/' | relative_url }})
-
 GAIMHE shares datasets, documentation, visual inspection tools, and evaluation code to support reproducible research on AI for education.
 
 ## MIAAM Dataset
@@ -72,5 +70,3 @@ GAIMHE uses these resources to evaluate several families of models and methods:
 Educational data is treated as high-stakes data. Public datasets are anonymized and minimized before release: student, classroom, and session identifiers are anonymized; temporal information is transformed to preserve order and durations without exposing direct timestamps; names, school identifiers, demographic free text, and geographic identifiers are not shared.
 
 Some resources are distributed through gated access on Hugging Face so users acknowledge the license and intended use conditions before downloading the data. This allows GAIMHE to support open research while preserving safeguards around sensitive educational traces.
-
-[Back to Home]({{ '/' | relative_url }})

@@ -3,8 +3,6 @@ layout: default
 title: "GAIMHE: Generative AI Models for Hybrid Educational technologies"
 ---
 
-# GAIMHE: Generative AI Models for Hybrid Educational technologies
-
 <p class="lead">
 GAIMHE is an industry-academic project exploring how generative AI can be integrated into adaptive intelligent tutoring systems without giving up pedagogical control, frugality, or real-world deployability.
 </p>
@@ -31,8 +29,6 @@ GAIMHE is an industry-academic project exploring how generative AI can be integr
     <span>Where to follow public resources and reach the consortium.</span>
   </a>
 </div>
-
----
 
 ## Why GAIMHE?
 

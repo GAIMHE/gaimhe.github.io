@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en-US' }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>
+      {%- if page.title -%}
+        {{ page.title }} | {{ site.title }}
+      {%- else -%}
+        {{ site.title }}
+      {%- endif -%}
+    </title>
+    <meta name="description" content="{{ site.description | default: site.github.project_tagline }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <section class="page-header" role="banner">
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="site-nav-link{% if page.url == '/' %} is-active{% endif %}" href="{{ '/' | relative_url }}">Home</a>
+        <a class="site-nav-link{% if page.url == '/project/' %} is-active{% endif %}" href="{{ '/project/' | relative_url }}">Architecture</a>
+        <a class="site-nav-link{% if page.url == '/datasets/' %} is-active{% endif %}" href="{{ '/datasets/' | relative_url }}">Data &amp; Evaluation</a>
+        <a class="site-nav-link{% if page.url == '/collaborations/' %} is-active{% endif %}" href="{{ '/collaborations/' | relative_url }}">Collaborations</a>
+        <a class="site-nav-link{% if page.url == '/contact/' %} is-active{% endif %}" href="{{ '/contact/' | relative_url }}">Contact</a>
+      </nav>
+
+      <div class="hero-copy">
+        <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+        <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+      </div>
+    </section>
+
+    <main class="main-content" role="main">
+      {{ content }}
+
+      <footer class="site-footer">
+        <span class="site-footer-owner">
+          <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        </span>
+        <span class="site-footer-credits">Published with GitHub Pages.</span>
+      </footer>
+    </main>
+  </body>
+</html>

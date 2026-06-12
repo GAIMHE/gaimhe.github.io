@@ -6,8 +6,6 @@ permalink: /collaborations/
 
 # Collaborations
 
-[Back to Home]({{ '/' | relative_url }})
-
 GAIMHE brings together research, educational technology, open-source AI, infrastructure, and institutional partners around a shared objective: building generative AI methods that remain compatible with pedagogically grounded adaptive learning.
 
 ## Core Partners
@@ -47,5 +45,3 @@ GAIMHE brings together research, educational technology, open-source AI, infrast
 ## Collaboration Goals
 
 The consortium works on shared datasets, evaluation methods, generation pipelines, visualization tools, and scientific communication. Outputs are progressively documented through this website, public repositories, Hugging Face resources, and scientific publications.
-
-[Back to Home]({{ '/' | relative_url }})
