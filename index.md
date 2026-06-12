@@ -4,7 +4,7 @@ title: "GAIMHE: Generative AI Models for Hybrid Educational technologies"
 ---
 
 <p class="lead">
-GAIMHE is an industry-academic project exploring how generative AI can be integrated into adaptive intelligent tutoring systems without giving up pedagogical control, frugality, or real-world deployability.
+GAIMHE is an industry-academic project coordinated by EvidenceB, carried out with Inria, and funded by BPI France. It explores how generative AI can be integrated into adaptive intelligent tutoring systems without giving up pedagogical control, frugality, or real-world deployability.
 </p>
 
 <div class="link-grid">
@@ -88,11 +88,47 @@ GAIMHE contributes to research in AI for education by studying how to combine th
 
 ## Partners
 
-<p class="partner-strip">
-  <a href="https://evidenceb.fr/">EvidenceB</a>
-  <a href="https://flowers.inria.fr/">Inria</a>
-  <a href="https://openllm-france.fr/">Class'Code / OpenLLM-France</a>
-  <a href="https://www.iledefrance.fr/">R&eacute;gion &Icirc;le-de-France</a>
-  <a href="https://www.cafepedagogique.net/">Le Caf&eacute; p&eacute;dagogique</a>
-  <a href="https://www.scaleway.com/fr/">Scaleway</a>
-</p>
+<div class="partner-logo-grid">
+  <a class="partner-logo-card" href="https://evidenceb.fr/">
+    <strong>EvidenceB</strong>
+    <span class="partner-logo-frame">
+      <img src="{{ '/images/logo/evidencb_logo.png' | relative_url }}" alt="EvidenceB logo">
+    </span>
+  </a>
+  <a class="partner-logo-card" href="https://flowers.inria.fr/">
+    <strong>Inria Flowers</strong>
+    <span class="partner-logo-frame">
+      <img src="{{ '/images/logo/inria_logo.png' | relative_url }}" alt="Inria logo">
+    </span>
+  </a>
+  <a class="partner-logo-card" href="https://www.cafepedagogique.net/">
+    <strong>Le Caf&eacute; p&eacute;dagogique</strong>
+    <span class="partner-logo-frame">
+      <img src="{{ '/images/logo/cafe_logo.jpg' | relative_url }}" alt="Le Caf&eacute; p&eacute;dagogique logo">
+    </span>
+  </a>
+    <a class="partner-logo-card" href="https://classcode.fr/">
+    <strong>Class'Code</strong>
+    <span class="partner-logo-frame">
+      <img src="{{ '/images/logo/classcode_logo.png' | relative_url }}" alt="Class'Code logo">
+    </span>
+  </a>
+  <a class="partner-logo-card" href="https://openllm-france.fr/">
+    <strong>OpenLLM-France</strong>
+    <span class="partner-logo-frame">
+      <img src="{{ '/images/logo/openllm_logo.jpg' | relative_url }}" alt="OpenLLM-France logo">
+    </span>
+  </a>
+  <a class="partner-logo-card" href="https://www.iledefrance.fr/">
+    <strong>R&eacute;gion &Icirc;le-de-France</strong>
+    <span class="partner-logo-frame">
+      <img src="{{ '/images/logo/region_logo.jpg' | relative_url }}" alt="R&eacute;gion &Icirc;le-de-France logo">
+    </span>
+  </a>
+  <a class="partner-logo-card" href="https://www.scaleway.com/fr/">
+    <strong>Scaleway</strong>
+    <span class="partner-logo-frame">
+      <img src="{{ '/images/logo/scaleway_logo.png' | relative_url }}" alt="Scaleway logo">
+    </span>
+  </a>
+</div>

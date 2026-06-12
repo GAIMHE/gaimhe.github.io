@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>
-      {%- if page.title -%}
+      {%- if page.url == '/' -%}
+        {{ site.title }}: {{ site.description }}
+      {%- elsif page.title -%}
         {{ page.title }} | {{ site.title }}
       {%- else -%}
         {{ site.title }}
@@ -26,8 +28,14 @@
       </nav>
 
       <div class="hero-copy">
-        <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
-        <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+        {%- if page.url == '/' -%}
+          <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
+          <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+        {%- else -%}
+          <p class="hero-kicker">{{ site.title }}</p>
+          <h1 class="project-name">{{ page.title }}</h1>
+          <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
+        {%- endif -%}
       </div>
     </section>
 
@@ -38,7 +46,10 @@
         <span class="site-footer-owner">
           <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
         </span>
-        <span class="site-footer-credits">Published with GitHub Pages.</span>
+        <span class="site-footer-credits">
+          Funded by BPI France.
+          <img class="site-footer-logo" src="{{ '/images/logo/bpi_logo.png' | relative_url }}" alt="BPI France logo">
+        </span>
       </footer>
     </main>
   </body>

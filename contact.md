@@ -14,10 +14,6 @@ Visit the GAIMHE organization:
 
 [github.com/GAIMHE](https://github.com/GAIMHE)
 
-## Location
-
-Inria
-
 ## Updates
 
 Project resources, datasets, documentation, and software links will be progressively listed on this website as they become available for public dissemination.
