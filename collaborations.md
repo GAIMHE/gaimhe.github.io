@@ -13,35 +13,35 @@ GAIMHE brings together research, educational technology, open-source AI, infrast
 ## Core Partners
 
 <div class="feature-grid">
-  <section class="feature-panel">
+  <a class="link-card" href="https://evidenceb.fr/">
     <h3>EvidenceB</h3>
-    <p>Coordinates the project and contributes adaptive learning platforms, educational content, product expertise, and deployment contexts.</p>
-  </section>
-  <section class="feature-panel">
+    <span>Coordinates the project and contributes adaptive learning platforms, educational content, product expertise, and deployment contexts.</span>
+  </a>
+  <a class="link-card" href="https://flowers.inria.fr/">
     <h3>Inria</h3>
-    <p>Contributes research on adaptive learning, student modeling, learning analytics, generative AI evaluation, and scientific dissemination.</p>
-  </section>
-  <section class="feature-panel">
+    <span>Contributes research on adaptive learning, student modeling, learning analytics, generative AI evaluation, and scientific dissemination.</span>
+  </a>
+  <a class="link-card" href="https://openllm-france.fr/">
     <h3>Class'Code / OpenLLM-France</h3>
-    <p>Supports links with the open-source AI ecosystem, model evaluation, and the dissemination of reusable resources.</p>
-  </section>
+    <span>Supports links with the open-source AI ecosystem, model evaluation, and the dissemination of reusable resources.</span>
+  </a>
 </div>
 
 ## Ecosystem Partners
 
 <div class="feature-grid">
-  <section class="feature-panel">
+  <a class="link-card" href="https://www.iledefrance.fr/">
     <h3>R&eacute;gion &Icirc;le-de-France</h3>
-    <p>Supports educational innovation and digital commons, including links with open textbook resources.</p>
-  </section>
-  <section class="feature-panel">
+    <span>Supports educational innovation and digital commons, including links with open textbook resources.</span>
+  </a>
+  <a class="link-card" href="https://www.cafepedagogique.net/">
     <h3>Le Caf&eacute; p&eacute;dagogique</h3>
-    <p>Contributes connections with educational communities and the broader dissemination of project outcomes.</p>
-  </section>
-  <section class="feature-panel">
+    <span>Contributes connections with educational communities and the broader dissemination of project outcomes.</span>
+  </a>
+  <a class="link-card" href="https://www.scaleway.com/fr/">
     <h3>Scaleway</h3>
-    <p>Contributes European cloud infrastructure relevant to model development, evaluation, and deployment experiments.</p>
-  </section>
+    <span>Contributes European cloud infrastructure relevant to model development, evaluation, and deployment experiments.</span>
+  </a>
 </div>
 
 ## Collaboration Goals
