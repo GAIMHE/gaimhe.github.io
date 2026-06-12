@@ -166,6 +166,7 @@
 .link-card,
 .resource-item,
 .feature-panel,
+.partner-detail-card,
 .partner-logo-card,
 .process-flow > div,
 .stat-grid > div {
@@ -183,6 +184,19 @@
   transition: background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
 }
 
+.partner-detail-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  color: var(--gaimhe-ink);
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.partner-detail-card:hover,
+.partner-detail-card:focus,
 .link-card:hover,
 .link-card:focus,
 .resource-item:hover,
@@ -192,6 +206,20 @@
   box-shadow: 0 8px 20px rgba(20, 50, 70, 0.08);
   text-decoration: none;
   transform: translateY(-2px);
+}
+
+.partner-detail-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  color: inherit;
+}
+
+.partner-detail-card > span:last-child {
+  display: block;
+  margin-top: 0.85rem;
+  color: var(--gaimhe-muted);
+  font-size: 0.95rem;
+  line-height: 1.45;
 }
 
 .link-card strong,
@@ -305,6 +333,18 @@
   text-align: center;
   text-decoration: none;
   transition: background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+}
+
+.partner-logo-pair {
+  display: flex;
+  gap: 0.65rem;
+  justify-content: center;
+  width: 100%;
+}
+
+.partner-logo-pair .partner-logo-frame {
+  max-width: 5.25rem;
+  margin-top: 0;
 }
 
 .partner-logo-card:hover,
