@@ -73,12 +73,18 @@
   padding: 1rem;
   color: var(--gaimhe-ink);
   text-decoration: none;
+  transition: background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
 }
 
 .link-card:hover,
-.resource-item:hover {
+.link-card:focus,
+.resource-item:hover,
+.resource-item:focus {
+  background: var(--gaimhe-soft);
   border-color: #9fc6d0;
+  box-shadow: 0 8px 20px rgba(20, 50, 70, 0.08);
   text-decoration: none;
+  transform: translateY(-2px);
 }
 
 .link-card strong,
@@ -140,6 +146,7 @@
   padding: 0.9rem 1rem;
   color: var(--gaimhe-ink);
   text-decoration: none;
+  transition: background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
 }
 
 .partner-strip {
