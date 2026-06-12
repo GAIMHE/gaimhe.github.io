@@ -7,55 +7,98 @@ title: Home
 
 **Generative AI Models for Hybrid Educational technologies**
 
----
+<p class="lead">
+GAIMHE is an industry-academic project exploring how generative AI can be integrated into adaptive intelligent tutoring systems without giving up pedagogical control, frugality, or real-world deployability.
+</p>
 
-## Overview
-
-GAIMHE is a strategic project funded by Bpifrance to build the future of how AI serves education. This collaboration is coordinated by EvidenceB and brings together the Flowers AI & CogSci Lab at Inria, Café pédagogique, and Association Class'Code to create the next generation of intelligent learning systems.
-
-💡 THE CHALLENGE
-
-Today's educational AI faces a critical trade-off:
-
-1️⃣ Traditional Intelligent Tutoring Systems (ITS) like AdaptivMaths or MIA Seconde deliver pedagogically grounded, personalized curricula using efficient, cognitive science-inspired AI algorithms (like the ZPDES AI algorithm developed in the Flowers AI & CogSci Lab). But they require extensive manual content creation at the start, e.g. to populate the graph of exercices.
-
-2️⃣ Generative AI offers flexibility and natural interaction, but systems including the learning modes of the main genAI softwares lack pedagogical rigor (they can even encode harmful pedagogical biases), can't personalize year-long curricula, and consume massive energy.
-
-🎯 OUR APPROACH
-
-GAIMHE bridges this gap by hybridizing both paradigms:
-
-1️⃣ GenAI-powered content pre-generation to automatically create pedagogically compliant and diverse exercises, rapidly populating ITS graphs
-2️⃣ Targeted generative guidance that applies proven pedagogical principles only when needed, using optimally-sized models
-3️⃣ Next-generation personalization through compact student models that predict and adapt to learning trajectories across vast exercise spaces (building on our MAGELLAN research)
-
-🌍 REAL-WORLD IMPACT AT SCALE
-
-This isn't only lab research: we aim for actual deployed innovation. EvidenceB's platforms already serve tens of thousands of classrooms across primary, middle, and high schools in multiple disciplines (AdaptivMaths, MIA Seconde, etc). GAIMHE will leverage this massive real-world infrastructure, learning from real educational data and evaluating outcomes where it matters: actual classrooms.
-
-♻️ DIGITAL COMMONS
-
-To accelerate France's EDTech France ecosystem, we will release major project components as open-source and digital commons: annotated datasets, learning traces, and software (both genAI and learning analytics over datasets like AdaptivMaths). This commitment is reinforced through our partnership with Région Ile de France, leveraging their digital commons textbooks.
-
-## Quick Links
-
-White paper (PDF)
-
-- **White paper (PDF)**  
-  *Hybridizing adaptive intelligent tutoring systems with generative AI:  
-  challenges and opportunities for large-scale deployment and pedagogical impact*  
-  Sofiya Kobylyanskaya, Olivier Clerc, Axelle Ziegler,  
-  Catherine de Vulpillières, Pierre-Yves Oudeyer  
-  → [Link](ressources/whitepaper.pdf)
-- [Project Architecture](project.md) — Discover our approach  
-- [Data & Evaluation](datasets.md) — Learn about our dataset generation methodology  
-- [Collaborations](collaborations.md) — Meet our partners  
-- [Contact](contact.md) — Get in touch
+<div class="link-grid">
+  <a class="link-card" href="{{ '/project/' | relative_url }}">
+    <span class="card-kicker">Architecture</span>
+    <strong>Hybrid tutoring systems</strong>
+    <span>How adaptive sequencing, pedagogical graphs, and constrained generative modules work together.</span>
+  </a>
+  <a class="link-card" href="{{ '/datasets/' | relative_url }}">
+    <span class="card-kicker">Data and Evaluation</span>
+    <strong>Open resources and benchmarks</strong>
+    <span>Datasets, visualization tools, evaluation code, and the research questions they support.</span>
+  </a>
+  <a class="link-card" href="{{ '/collaborations/' | relative_url }}">
+    <span class="card-kicker">Consortium</span>
+    <strong>Partners and ecosystem</strong>
+    <span>The organizations contributing research, deployment, infrastructure, and dissemination.</span>
+  </a>
+  <a class="link-card" href="{{ '/contact/' | relative_url }}">
+    <span class="card-kicker">Contact</span>
+    <strong>Project channels</strong>
+    <span>Where to follow public resources and reach the consortium.</span>
+  </a>
+</div>
 
 ---
+
+## Why GAIMHE?
+
+Current educational AI systems face a structural tradeoff.
+
+Adaptive intelligent tutoring systems can personalize learning trajectories over weeks or months, rely on explicit pedagogical structures, and have already been deployed at classroom scale. Their main limitation is the cost of producing high-quality exercises, hints, feedback, metadata, and pedagogical graphs by hand.
+
+Generative AI can produce content and interact in natural language, but unconstrained use raises risks: factual errors, weak pedagogical alignment, over-helpful feedback, high inference cost, and limited control for teachers and instructional designers.
+
+GAIMHE investigates a hybrid path: keep the adaptive tutoring system in charge of pedagogical sequencing, and use generative models under explicit constraints where they add value.
+
+## Approach
+
+<div class="feature-grid">
+  <section class="feature-panel">
+    <h3>Adaptive core</h3>
+    <p>Learning paths remain structured by expert-authored pedagogical graphs and adaptive sequencing algorithms such as ZPDES.</p>
+  </section>
+  <section class="feature-panel">
+    <h3>Offline generation</h3>
+    <p>LLMs are used to pre-generate exercises, distractors, hints, and feedback from explicit specifications and expert examples.</p>
+  </section>
+  <section class="feature-panel">
+    <h3>Targeted assistance</h3>
+    <p>Real-time generation is reserved for pedagogically justified situations, such as repeated errors or explicit help requests.</p>
+  </section>
+  <section class="feature-panel">
+    <h3>Validated commons</h3>
+    <p>Datasets, documentation, tools, and evaluation protocols are progressively shared as research resources and digital commons.</p>
+  </section>
+</div>
+
+## Current Resources
+
+<div class="resource-list">
+  <a class="resource-item" href="ressources/whitepaper.pdf">
+    <strong>White paper</strong>
+    <span>Hybridizing adaptive intelligent tutoring systems with generative AI: challenges and opportunities for large-scale deployment and pedagogical impact.</span>
+  </a>
+  <a class="resource-item" href="https://huggingface.co/datasets/GAIMHE/MIAAM">
+    <strong>MIAAM dataset</strong>
+    <span>A semantically rich mathematics learning dataset linking real student attempts, exercise content, metadata, and prerequisite graphs.</span>
+  </a>
+  <a class="resource-item" href="https://huggingface.co/datasets/GAIMHE/Physics">
+    <strong>Physics dataset</strong>
+    <span>Expert-designed physics and chemistry activities prepared as reference material for synthetic exercise generation.</span>
+  </a>
+  <a class="resource-item" href="https://miaamdata.streamlit.app/">
+    <strong>MIAAM visualization tool</strong>
+    <span>Interactive inspection of usage statistics, learning trajectories, curriculum graphs, and activity-level patterns.</span>
+  </a>
+</div>
+
+## Scientific Direction
+
+GAIMHE contributes to research in AI for education by studying how to combine the structured efficiency of classical student modeling with the representational flexibility of modern generative and multimodal models. The project focuses on practical questions that matter for deployment: what should be generated, when generation should happen, how generated resources should be validated, and how models can be evaluated against real learning histories rather than only isolated exercises.
 
 ## Partners
 
-<p align="center">
-  <strong>EvidenceB</strong> • <strong>Inria</strong> • <strong>ClassCode / OpenLLM-France</strong> • <strong>Région Île-de-France</strong> • <strong>Le café pédagogique</strong> • <strong>Scaleway</strong>
+<p class="partner-strip">
+  <span>EvidenceB</span>
+  <span>Inria</span>
+  <span>Class'Code / OpenLLM-France</span>
+  <span>R&eacute;gion &Icirc;le-de-France</span>
+  <span>Le Caf&eacute; p&eacute;dagogique</span>
+  <span>Scaleway</span>
 </p>

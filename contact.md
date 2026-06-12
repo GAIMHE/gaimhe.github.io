@@ -1,42 +1,27 @@
 ---
 layout: default
 title: Contact
+permalink: /contact/
 ---
 
 # Contact
 
-[← Back to Home](index.md)
+[Back to Home]({{ '/' | relative_url }})
 
----
+For questions about GAIMHE, collaboration opportunities, datasets, or scientific resources, use the public project channels below.
 
-## Get in Touch
+## GitHub
 
-For questions, collaboration inquiries, or more information about GAIMHE:
+Visit the GAIMHE organization:
 
----
+[github.com/GAIMHE](https://github.com/GAIMHE)
 
-### Email
+## Location
 
-*[Add contact email here]*
+Inria
 
----
+## Updates
 
-### GitHub
+Project resources, datasets, documentation, and software links will be progressively listed on this website as they become available for public dissemination.
 
-Visit our organization: [github.com/GAIMHE](https://github.com/GAIMHE)
-
----
-
-### Location
-
-**Inria**  
-
----
-
-## Follow Our Work
-
-Stay updated on our latest developments through our GitHub repositories.
-
----
-
-[← Back to Home](index.md)
+[Back to Home]({{ '/' | relative_url }})
