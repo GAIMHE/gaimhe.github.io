@@ -157,8 +157,7 @@
   margin-top: 1rem;
 }
 
-.partner-strip strong,
-.partner-strip span {
+.partner-strip a {
   display: inline-flex;
   align-items: center;
   min-height: 2rem;
@@ -168,6 +167,17 @@
   background: var(--gaimhe-soft);
   color: var(--gaimhe-ink);
   font-size: 0.92rem;
+  text-decoration: none;
+  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease, transform 160ms ease;
+}
+
+.partner-strip a:hover,
+.partner-strip a:focus {
+  background: #fff;
+  border-color: #9fc6d0;
+  color: var(--gaimhe-accent-dark);
+  text-decoration: none;
+  transform: translateY(-1px);
 }
 
 .process-flow {
@@ -219,8 +229,7 @@
     font-size: 1.05rem;
   }
 
-  .partner-strip strong,
-  .partner-strip span {
+  .partner-strip a {
     width: 100%;
     justify-content: center;
   }

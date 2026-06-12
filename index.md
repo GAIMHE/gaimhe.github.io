@@ -93,10 +93,10 @@ GAIMHE contributes to research in AI for education by studying how to combine th
 ## Partners
 
 <p class="partner-strip">
-  <span>EvidenceB</span>
-  <span>Inria</span>
-  <span>Class'Code / OpenLLM-France</span>
-  <span>R&eacute;gion &Icirc;le-de-France</span>
-  <span>Le Caf&eacute; p&eacute;dagogique</span>
-  <span>Scaleway</span>
+  <a href="https://evidenceb.fr/">EvidenceB</a>
+  <a href="https://flowers.inria.fr/">Inria</a>
+  <a href="https://openllm-france.fr/">Class'Code / OpenLLM-France</a>
+  <a href="https://www.iledefrance.fr/">R&eacute;gion &Icirc;le-de-France</a>
+  <a href="https://www.cafepedagogique.net/">Le Caf&eacute; p&eacute;dagogique</a>
+  <a href="https://www.scaleway.com/fr/">Scaleway</a>
 </p>
