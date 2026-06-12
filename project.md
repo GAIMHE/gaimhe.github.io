@@ -12,26 +12,22 @@ GAIMHE investigates a hybrid architecture for educational AI. The central design
 
 <div class="process-flow">
   <div>
-    <strong>1. Expert specifications</strong>
-    <span>Pedagogical objectives, activity templates, expected answers, distractor logic, and validation criteria.</span>
+    <strong>1. Exercise pre-generation</strong>
+    <span>Generative AI produces synthetic exercises from expert data and learner data, followed by small-scale human evaluation, LLM-as-Judge filtering, annotation, and benchmark construction.</span>
   </div>
   <div>
-    <strong>2. Offline generation</strong>
-    <span>Exercises, hints, feedback, and variants are generated from explicit constraints and examples.</span>
+    <strong>2. Personalization inside exercises</strong>
+    <span>Student models, teacher models, and prompted LLMs support pre-generated or online generation of hints and feedback from observed errors and learning traces.</span>
   </div>
   <div>
-    <strong>3. Automated pre-filtering</strong>
-    <span>LLM-as-Judge tools flag low-quality or misaligned outputs before expert review.</span>
-  </div>
-  <div>
-    <strong>4. Human validation</strong>
-    <span>Teachers and domain experts validate, revise, and document generated resources.</span>
-  </div>
-  <div>
-    <strong>5. Adaptive deployment</strong>
-    <span>Validated resources are integrated into pedagogical graphs and sequenced by the tutoring system.</span>
+    <strong>3. Curriculum personalization</strong>
+    <span>Adaptive teaching algorithms and generative student-trajectory models select activities and exercises inside an augmented ITS while preserving pedagogical graph constraints.</span>
   </div>
 </div>
+
+<figure class="figure-panel">
+  <img src="{{ '/images/pipeline_gaimhe.png' | relative_url }}" alt="GAIMHE architecture pipeline">
+</figure>
 
 ## Adaptive Tutoring Core
 
