@@ -1,10 +1,11 @@
 ---
 layout: default
-title: "GAIMHE: Generative AI Models for Hybrid Educational technologies"
+title: "GAIMHE: Generative AI and Hybrid Models for Education"
 ---
 
 <section class="page-section section-blue">
   <div class="section-inner">
+    <h2 class="intro-title">Hybridizing adaptive intelligent tutoring systems with generative AI.</h2>
     <p class="lead">
       GAIMHE is an industry-academic project coordinated by EvidenceB, carried out with Inria, and funded by BPI France. It explores how generative AI can be integrated into adaptive intelligent tutoring systems without giving up pedagogical control, frugality, or real-world deployability.
     </p>
@@ -37,6 +38,19 @@ title: "GAIMHE: Generative AI Models for Hybrid Educational technologies"
 <section class="page-section section-narrow">
   <div class="section-inner">
     <h2>Why GAIMHE?</h2>
+    <p>Education systems face major challenges. <a href="https://www.oecd.org/en/publications/pisa-2022-results-volume-i_53f23881-en.html">PISA 2022</a> reports a sharp decline in mathematics and reading performance across OECD countries, while socio-economic background continues to strongly shape student achievement. Digital technologies can help, but only when they are used purposefully, regulated responsibly, and made available equitably; otherwise they can reinforce the inequalities they are meant to reduce.</p>
+    <p>Adaptive learning addresses part of this challenge by personalizing learning paths to each learner's level and progression. EdTech companies have therefore developed Intelligent Tutoring Systems with strong pedagogical grounding, but these systems have not yet fully benefited from recent advances in generative AI.</p>
+
+    <figure class="figure-panel evidence-figure">
+      <img src="{{ '/images/pisa5.png' | relative_url }}" alt="PISA 2022 results for France and OECD average trends in mathematics, reading, and science">
+      <figcaption>PISA indicators illustrate both the decline in core academic performance and the persistence of socio-economic learning gaps, motivating tools that combine personalization, equity, and pedagogical control.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="page-section section-narrow section-compact">
+  <div class="section-inner">
+    <h2>The Hybrid Opportunity</h2>
     <p>Current educational AI systems face a structural tradeoff.</p>
     <p>Adaptive intelligent tutoring systems can personalize learning trajectories over weeks or months, rely on explicit pedagogical structures, and have already been deployed at classroom scale. Their main limitation is the cost of producing high-quality exercises, hints, feedback, metadata, and pedagogical graphs by hand.</p>
     <p>Generative AI can produce content and interact in natural language, but unconstrained use raises risks: factual errors, weak pedagogical alignment, over-helpful feedback, high inference cost, and limited control for teachers and instructional designers.</p>
@@ -45,13 +59,17 @@ title: "GAIMHE: Generative AI Models for Hybrid Educational technologies"
 </section>
 
 <section class="page-section section-soft">
-  <div class="section-inner">
-    <div class="section-head">
+  <div class="section-inner approach-split">
+    <div class="section-head approach-copy">
       <h2>Controlled generation inside adaptive systems</h2>
       <p>The project keeps long-term pedagogical decisions inside the tutoring system and uses generative models only where they can be constrained, validated, and monitored.</p>
+      <div class="hero-actions">
+        <a class="button-primary" href="{{ '/project/' | relative_url }}">See the architecture</a>
+        <a class="button-secondary" href="{{ '/ressources/whitepaper.pdf' | relative_url }}">Read the white paper</a>
+      </div>
     </div>
 
-    <div class="feature-grid feature-grid-four">
+    <div class="feature-grid feature-grid-four approach-grid">
       <section class="feature-panel">
         <h3>Adaptive core</h3>
         <p>Learning paths remain structured by expert-authored pedagogical graphs and adaptive sequencing algorithms such as ZPDES.</p>
@@ -72,7 +90,7 @@ title: "GAIMHE: Generative AI Models for Hybrid Educational technologies"
   </div>
 </section>
 
-<section class="page-section">
+<section class="page-section section-dark">
   <div class="section-inner">
     <div class="section-head">
       <h2>Current Resources</h2>

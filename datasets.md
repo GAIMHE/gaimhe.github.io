@@ -105,7 +105,7 @@ permalink: /datasets/
   </div>
 </section>
 
-<section class="page-section">
+<section class="page-section section-dark">
   <div class="section-inner">
     <div class="section-head">
       <h2>Evaluation Goals</h2>
