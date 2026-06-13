@@ -4,14 +4,6 @@ title: Data & Evaluation
 permalink: /datasets/
 ---
 
-<section class="page-section section-blue section-narrow">
-  <div class="section-inner">
-    <p class="lead">
-      GAIMHE shares datasets, documentation, visual inspection tools, and evaluation code to support reproducible research on AI for education.
-    </p>
-  </div>
-</section>
-
 <section class="page-section">
   <div class="section-inner">
     <div class="section-head">

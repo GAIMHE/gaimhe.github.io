@@ -4,14 +4,6 @@ title: Project Architecture
 permalink: /project/
 ---
 
-<section class="page-section section-blue section-narrow">
-  <div class="section-inner">
-    <p class="lead">
-      GAIMHE investigates a hybrid architecture for educational AI. The central design choice is to preserve the pedagogical control of adaptive intelligent tutoring systems while using generative AI only where it can reduce authoring cost, improve feedback, or support richer learning analytics.
-    </p>
-  </div>
-</section>
-
 <section class="page-section">
   <div class="section-inner">
     <div class="section-head">

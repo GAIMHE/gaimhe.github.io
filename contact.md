@@ -4,14 +4,6 @@ title: Contact
 permalink: /contact/
 ---
 
-<section class="page-section section-blue section-narrow">
-  <div class="section-inner">
-    <p class="lead">
-      For questions about GAIMHE, collaboration opportunities, datasets, or scientific resources, use the public project channels below.
-    </p>
-  </div>
-</section>
-
 <section class="page-section">
   <div class="section-inner">
     <div class="section-head">

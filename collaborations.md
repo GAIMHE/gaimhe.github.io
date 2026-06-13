@@ -4,14 +4,6 @@ title: Collaborations
 permalink: /collaborations/
 ---
 
-<section class="page-section section-blue section-narrow">
-  <div class="section-inner">
-    <p class="lead">
-      GAIMHE brings together research, educational technology, open-source AI, infrastructure, and institutional partners around a shared objective: building generative AI methods that remain compatible with pedagogically grounded adaptive learning.
-    </p>
-  </div>
-</section>
-
 <section class="page-section">
   <div class="section-inner">
     <div class="section-head">
