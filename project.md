@@ -64,14 +64,9 @@ permalink: /project/
   </div>
 </section>
 
-<section class="page-section">
-  <div class="section-inner">
-    <div class="section-head">
-      <h2>Frugality and Deployment</h2>
-      <p>The architecture is designed for classroom-scale use. Generating every exercise or feedback message with a large model in real time would be costly, slow, and difficult to deploy responsibly.</p>
-    </div>
-
-    <div class="feature-grid">
+<section class="page-section section-dark">
+  <div class="section-inner reverse-split">
+    <div class="feature-grid feature-grid-four split-card-grid">
       <section class="feature-panel">
         <h3>Offline first</h3>
         <p>Generation is moved offline whenever possible, so validated resources can be reused at scale.</p>
@@ -88,6 +83,12 @@ permalink: /project/
         <h3>Auditable resources</h3>
         <p>Shared documentation and datasets make generation and evaluation pipelines easier to inspect.</p>
       </section>
+    </div>
+
+    <div class="section-head split-copy">
+      <h2>Frugal by design.</h2>
+      <p>The architecture is designed for classroom-scale use. Generating every exercise or feedback message with a large model in real time would be costly, slow, and difficult to deploy responsibly.</p>
+      <p>GAIMHE therefore separates resource production from classroom execution and limits real-time generation to cases with clear pedagogical value.</p>
     </div>
   </div>
 </section>
