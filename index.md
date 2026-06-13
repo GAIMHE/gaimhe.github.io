@@ -45,13 +45,17 @@ title: "GAIMHE: Generative AI Models for Hybrid Educational technologies"
 </section>
 
 <section class="page-section section-soft">
-  <div class="section-inner">
-    <div class="section-head">
+  <div class="section-inner approach-split">
+    <div class="section-head approach-copy">
       <h2>Controlled generation inside adaptive systems</h2>
       <p>The project keeps long-term pedagogical decisions inside the tutoring system and uses generative models only where they can be constrained, validated, and monitored.</p>
+      <div class="hero-actions">
+        <a class="button-primary" href="{{ '/project/' | relative_url }}">See the architecture</a>
+        <a class="button-secondary" href="{{ '/ressources/whitepaper.pdf' | relative_url }}">Read the white paper</a>
+      </div>
     </div>
 
-    <div class="feature-grid feature-grid-four">
+    <div class="feature-grid feature-grid-four approach-grid">
       <section class="feature-panel">
         <h3>Adaptive core</h3>
         <p>Learning paths remain structured by expert-authored pedagogical graphs and adaptive sequencing algorithms such as ZPDES.</p>
